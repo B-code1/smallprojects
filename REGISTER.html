@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <form>
+        <h1>PLEASE REGISTER</h1><br>
+        <h2 style="color:red">REGISTER HERE</h2>
+        <label> FIRSTNAME: <input type="firstname" name="firstname" placeholder="firstname" required></label>
+        <label> LASTNAME: <input type="lastname" name="lastname" placeholder="lastname" required></label>
+        <br>
+        <label>MALE <input type="radio" name="gender" value="male"></label>
+        <label>FEMALE <input type="radio" name="gender" value="female"></label>
+        <label>OTHER <input type="radio" name="gender" value="other"></label>
+        <br>
+        <label> EMAIL: <input type="email" name="email" placeholder=" your email" required></label>
+        <label> PASSWORD: <input type="password" name="password" placeholder=" your password" pattern=".{5,10}"
+             required title="please the correct length 5 to 10"></label>
+<br>
+          <label for="" birthday></label>
+          <select name="birthday" id="Month">
+          <option>JANUARY</option>
+          <option>FEBRUARY</option>
+          <option>MARCH</option>
+          <option>APRIL</option>
+          <option>MAY</option>
+          <option>JUNE</option>
+          <option>JULY</option>
+          <option>AUGUST</option>
+          <option>OCTOBER</option>
+          <option>NOVEMBER</option>
+          <option>DECEMBER</option>
+        </select>
+        <select name="birthday" id="day">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+
+        </select>
+        <select name="birthday" id="year">
+            <option>2000</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2007</option>
+        </select><br>
+
+          
+          
+            <input type="submit" name="submit">
+        
+
+    </form>
+
+    
+</body>
+</html>
